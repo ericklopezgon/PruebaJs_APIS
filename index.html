@@ -3,12 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba APIS - Erick Lopez</title>
+    <title>Prueba APIS - Erick Lopez Gonzalez</title>
     <!-- css -->
      <link rel="stylesheet" href="./assets/css/style.css">
+     <!-- Chart.js usando CDN -->
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
+
+    <section class="main">
+        <div class="title"> 
+            Conversor de monedas
+        </div>
+        <div class="exchanger">
+            <h1>Pesos CLP</h1>
+            <input type="number" id="currencyInput" placeholder="Ingrese la cantidad en CLP">
+            <p>Seleccione moneda a convertir</p>
+            <select name="" id="currencySelector">
+                <option value="dolar">USD / Dolar americano</option>
+                <option value="euro">EUR / Euro</option>
+            </select>
+            <button id="exchangeBtn">Convertir moneda</button>
+            <div class="result">
+
+            </div>
+
+        </div>
+        <div class="chart">
+            <canvas id="currencyChart" width="600" height="400"></canvas>
+
+        </div>
+    </section>
 
     <!-- js -->
      <script src="./assets/js/script.js"></script>

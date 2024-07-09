@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    align-items: center;
+}
+
+.main h1,
+.main p,
+.main #currencyInput,
+.main #currencySelector,
+.main #exchangeBtn,
+.main .result {
+    padding: 10px;
+    margin: 5px;
+}
+
+.main .result {
+    margin-top: 20px;
+}
+
+.main .title {
+    font-size: larger;
+}
+
+.main .exchanger {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: rgb(16, 16, 87);
+    color: white;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+}
+
+#currencyInput {
+    width: 200px;
+}
+
+#currencySelector {
+    width: 200px;
+}
